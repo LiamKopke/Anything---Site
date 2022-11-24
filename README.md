@@ -22,12 +22,12 @@ Name: Anything
 Slogan: Hands free gaming
 
 Logo:<br>
-![Logo](.\images\logo_for_md.png)
+![Logo](./images/logo_for_md.png)
 
 
 
 Color Palette:<br>
-![Palette](.\images\palette.png)
+![Palette](./images/palette.png)
 
 
 
@@ -39,11 +39,11 @@ Long Text: font-family: 'Josefin Sans', sans-serif;
 
 Inspiration:
 
-![Inspiration](.\images\inspiration1.jpg)
+![Inspiration](./images/inspiration1.jpg)
 
 [Yamauchi No.10 Family Office (y-n10.com)](https://y-n10.com/)
 
-![Inspiration2](.\images\inspiration2.PNG)
+![Inspiration2](./images/inspiration2.PNG)
 
 [Proxy | Home](https://www.proxy.com/)
 
@@ -51,4 +51,4 @@ CSS Battles on YouTube, they use empty DIVs in order to make custom shapes.
 
 https://youtu.be/-QgJgZCJvo4?t=304
 
-![Inspiration3](.\images\inspiration3.PNG)
+![Inspiration3](./images/inspiration3.PNG)
