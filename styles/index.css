@@ -1,0 +1,212 @@
+/* ===========  Color Variables  ========== */
+
+:root {
+    --hero-title-font: white;
+    --hero-link-font: white;
+    --hero-link-hover:gray;
+    --hero-gradient: #0006;
+
+    --high-second-bg: lightgray;
+    /* Our color palette */
+    --white: #fff;
+    --med-aquamarine: #8cebbb;
+    --emerald: #18d777;
+    --independence: #3c3f50;
+    --raisin-black: #262833;
+    --black: #000;
+}
+
+/* ===========  Sections  ========== */
+
+.hero {
+    background: url(../images/Hero-Image.png) center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 400px; 
+    padding: 10rem 0;
+    color: var(--white);
+}
+
+.hero > * {
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+
+}
+
+.hero a {
+    padding: 0.5em 1em;
+    border: 2px solid var(--hero-link-font);
+    border-radius: 1em;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.hero a:hover {
+    background: var(--hero-link-hover);
+}
+
+.high {
+    display: flex;
+}
+
+.high-img, .high-text {
+    flex: 1;
+    margin: 2rem;
+}
+
+
+#sec-img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.high-text > * {
+    margin-top: 1.5rem;
+}
+
+.first {
+    order: -1;
+    text-align: left;
+}
+
+.second div.high-text {
+    text-align: right;
+}
+.second {
+    background-color: var(--raisin-black);
+}
+
+/*   Instruction lines  */
+
+.bigger-c{
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.high-text-ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "c d"
+    "e f";    
+    align-items: center;
+    justify-content: center;
+}
+.vertical{
+    height: 50%;
+    width: 1.33rem;
+    background-color: var(--independence);
+}
+.horizontal{
+    margin: 20% 0;
+    width: 100%;
+    height: 1.33rem;
+    background-color: var(--independence);
+}
+
+/*   Instruction boxes   */
+
+.ins-box li{    
+    list-style-type: none;
+}
+.ins-box{
+    z-index: 1;
+    border-radius: 5%;
+    width: 75%;
+    margin: 0 auto;
+    background-color: var(--independence);
+    padding: 0.5rem;
+}
+
+/*  Placing the items in the correct place */
+
+.h-t-left, .top-line-left, .top-arrow, .bottom-arrow{
+    grid-area: a;
+}
+.h-t-right, .top-right-top, .top-line-right{
+    grid-area: b;
+}
+.h-m-right, .bottom-left-top, .middle-line-right{
+    grid-area: c;
+}
+.h-m-left, .top-right-bottom, .middle-line-left{
+    grid-area: d;
+}
+.h-b-left, .bottom-left-bottom, .bottom-line-left{
+    grid-area: e;
+}
+.h-b-right, .bottom-line-right, .arrow-head{
+    grid-area: f;
+}
+/* Placing the verticals */
+
+.top-right-top, .top-right-bottom{
+    justify-self: right;
+}
+.top-right-top, .bottom-left-top{
+    align-self: flex-end;
+}
+.top-right-bottom, .bottom-left-bottom{
+    align-self: baseline;
+}
+/* Adding the arrow features */
+
+.top-arrow, .bottom-arrow{
+    width: 0.75rem;
+    height: 4rem;
+    background-color: var(--independence);
+}
+.top-arrow{
+    transform: translate(-6rem, -1rem) rotate(-52deg);
+}
+.top-arrow:nth-child(2){
+    transform: translate(-4rem, -1rem) rotate(-52deg) ;
+}
+.top-arrow:nth-child(3){    
+    transform: translate(-2rem, -1rem) rotate(-52deg) ;
+}
+.bottom-arrow{
+    transform: translate(-6rem, 1rem) rotate(52deg) ;
+}
+.bottom-arrow:nth-child(4){
+    transform: translate(-4rem, 1rem) rotate(52deg) ;
+}
+.bottom-arrow:nth-child(5){    
+    transform: translate(-2rem, 1rem) rotate(52deg) ;
+}
+.h-t-left, .h-b-right{transform: scaleX(1.33)}
+.arrow-head{
+    transform: translate(6rem, 0);
+    justify-self: right;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 80px solid var(--independence);
+}
+
+#play_btn:hover{
+    cursor: pointer;
+}
+
+#game-main{
+    border-bottom: white 5px solid;
+}
+
+#replay{
+    position: absolute;
+    left: 37%;
+    top: 360px;
+    width: 20%;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: none;
+}

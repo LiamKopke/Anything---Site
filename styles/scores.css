@@ -1,0 +1,44 @@
+/* =======  Page Specific Typography  ====== */
+
+table {
+    font-family: serif;
+}
+
+
+/* ===========  Color Variables  ========== */
+
+:root {
+    --even-row-bg: rgb(236, 236, 236);
+    --header-underline: black;
+
+    /* Our color palette */
+    --white: #fff;
+    --med-aquamarine: #8cebbb;
+    --emerald: #18d777;
+    --independence: #3c3f50;
+    --raisin-black: #262833;
+    --black: #000;
+}
+
+/* ===========  Sections  ========== */
+
+/* Table */
+
+table {
+    margin: 0 auto;
+    min-width:400px;
+}
+
+th{
+    border-bottom: 2px solid var(--header-underline);
+}
+
+th, td {
+    color: var(--white);
+    text-align:center;
+    padding: 0.5rem 1rem;
+}
+
+tr:hover{
+    font-weight: 700;
+}

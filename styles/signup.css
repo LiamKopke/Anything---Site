@@ -1,0 +1,26 @@
+
+/* =======  Page Specific Typography  ====== */
+
+
+
+/* ===========  Sections  ========== */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: min-content;
+    gap: 0.25rem;
+}
+
+label {
+    font-weight: 700;
+}
+
+input {
+    padding: 0.3em;
+    font-size: 1rem;
+}

@@ -1,0 +1,43 @@
+# Design file
+
+This file contains our design ideas as well as our sources of inspiration. 🧠
+
+## Team: Anything
+
+Name: Anything
+
+Slogan: Hands free gaming
+
+Logo: 
+
+![](.\images\logo_for_md.png)
+
+
+
+Color Palette:
+
+![](.\images\palette.png)
+
+
+
+Font Families: 
+
+Headings: font-family: 'Goblin One', cursive;
+
+Long Text: font-family: 'Josefin Sans', sans-serif;
+
+Inspiration:
+
+![](.\images\inspiration1.jpg)
+
+[Yamauchi No.10 Family Office (y-n10.com)](https://y-n10.com/)
+
+![](.\images\inspiration2.PNG)
+
+[Proxy | Home](https://www.proxy.com/)
+
+CSS Battles on YouTube, they use empty DIVs in order to make custom shapes.
+
+https://youtu.be/-QgJgZCJvo4?t=304
+
+![](.\images\inspiration3.PNG)

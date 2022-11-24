@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Title Landing Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/robot.ico">
+
+    <link rel="stylesheet" href="./styles/baseline.css">
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <script src="./scripts/fake_db.js" defer></script>
+    <script src="./scripts/loginState.js" defer></script>
+
+    <!-- Had to run the game locally to allow for the points to be saved-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bmoren/p5.collide2D/p5.collide2d.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="./game scripts/apple.js" defer></script>
+    <script src="./game scripts/bird.js" defer></script>
+    <script src="./game scripts/cactus.js" defer></script>
+    <script src="./game scripts/cake.js" defer></script>
+    <script src="./game scripts/dino.js" defer></script>
+    <script src="./game scripts/sketch.js" defer></script>
+    <script src="./game scripts/sound.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="max-w">
+            <li class="logo">
+                <a id="logo-content" href="index.html">
+                    <img id="logo-img" src="./images/logo.png" alt="logo">
+                    <div id="logo-text">
+                        <h3>anything</h3>
+                        <p>HANDS FREE GAMING</p>
+                    </div>
+                </a>
+            </li>
+            <div class="flex-even">
+                <li id="scores"><a href="scores.html">Scores</a></li>
+                <li id="signup"><a href="signup.html">Sign-up</a></li>
+                <li id="login"><button>Log-in</button></li>
+            </div>
+        </ul>
+    </nav>
+
+    <main id="game-main">
+        <div id="gameC">
+            <div id="buttons">
+                <h1 style="position: absolute; top: 300px; left: 40%; display: none;">Points: <i></i></h1>
+                <a id="replay" href="./play.html">Replay</a>
+            </div>
+            <audio id="jump">
+                <source src="game scripts/assets/Jump.wav">
+            </audio>
+            <audio id="apple">
+                <source src="game scripts/assets/Pickup_apple.wav">
+            </audio>
+            <audio id="hurt">
+                <source src="game scripts/assets/Hurt.wav">
+            </audio>
+            <audio id="cake">
+                <source src="game scripts/assets/Cake.wav">
+            </audio>
+            <audio id="loss">
+                <source src="game scripts/assets/Game_over.wav">
+            </audio>
+            <audio id="music" loop>
+                <source src="game scripts/assets/Music.wav">
+            </audio>
+    </main>
+
+</body>
+
+</html>

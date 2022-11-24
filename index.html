@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anything - Machine Learning Dino Game</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/robot.ico">
+
+    <link rel="stylesheet" href="./styles/baseline.css">
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <script src="./scripts/fake_db.js" defer></script>
+    <script src="./scripts/loginState.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="max-w">
+            <li class="logo">
+                <a id="logo-content" href="index.html">
+                    <img id="logo-img" src="./images/logo.png" alt="anything logo">
+                    <div id="logo-text">
+                        <h3>anything</h3>
+                        <p>HANDS FREE GAMING</p>
+                    </div>
+                </a>
+            </li>
+            <div class="flex-even">
+                <li id="scores"><a href="scores.html">Scores</a></li>
+                <li id="signup"><a href="signup.html">Sign-up</a></li>
+                <li id="login"><button>Log-in</button></li>
+            </div>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero center pad">
+            <h1 class="title">Hands Free Gaming</h2>
+                <p>Thow away your keyboard and let your camera to control your movement. We use machine learning to detect hand movement and translate that information into game actions.</p>
+                <a id="play_btn">Play now!</a>
+        </section>
+
+        <section class="highlights max-w">
+            <div class="high center pad">
+                <div class="high-img ">
+                    <!-- https://www.pexels.com/photo/photo-of-woman-teaching-his-son-while-smiling-4145355/ -->
+                    <img src="./images/hand-up.png" alt="Young girl on a computer with our technology.">
+                </div>
+                <div class="high-text first">
+                    <h2>Play with the whole family</h3>
+                        <p>The simplicity and ease of use of our game means it's fun for all ages. Bring your kids or
+                            parents around the table for an <em>artificially intelligent</em> game night!</p>
+                </div>
+            </div>
+            <div class="high center second pad">
+                <div class="high-img">
+                    <!-- https://www.pexels.com/photo/led-light-signage-1293269/ -->
+                    <img id="sec-img" src="./images/pexels-element-digital-1293269.jpg" alt="An arcade high score screen.">
+                </div>
+                <div class="high-text center">
+                    <h2>Tally up the highest score</h3>
+                        <p>Keep track of your scores and compete with your friends and family. Master these brand new
+                            controls and show your competetion who's the boss. </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="instructions max-w">
+            <div class="high center pad">
+                <div class="high-text first bigger-c">
+                    <h2 class="center area-a">Instructions</h2>
+                    <ul class="high-text-ul">
+                        <div class="top-arrow"></div>
+                        <div class="top-arrow"></div>
+                        <div class="top-arrow"></div>
+                        <div class="bottom-arrow"></div>
+                        <div class="bottom-arrow"></div>
+                        <div class="bottom-arrow"></div>
+                        <div class="horizontal h-t-left"></div>
+                        <div class="ins-box top-line-left">
+                            <li class="high-text">In order to play our game, we require your camera. Please setup your camera so that we can capture your movements</li>
+                        </div>
+                        <div class="horizontal h-t-right"></div>                        
+                        <div class="ins-box top-line-right">
+                            <li class="high-text">To JUMP over obstacles, simply raise one of your arms.</li>
+                        </div>
+                        <div class="vertical top-right-top"></div>
+                        <div class="vertical top-right-bottom"></div>
+                        <div class="horizontal h-m-left"></div>
+                        <div class="horizontal h-m-right"></div>
+                        <div class="ins-box middle-line-left">
+                            <li class="high-text">Collecting FOOD grants you an extra life</li>
+                        </div>
+                        <div class="ins-box middle-line-right">
+                            <li class="high-text">Ruuning into CACTUS takes away one of your lives</li>
+                        </div>
+                        <div class="vertical bottom-left-top"></div>
+                        <div class="vertical bottom-left-bottom"></div>
+                        <div class="horizontal h-b-left"></div>
+                        <div class="horizontal h-b-right"></div>
+                        <div class="ins-box bottom-line-left">
+                            <li class="high-text">Collecting CLOUDS gives you 10 extra points</li>
+                        </div>
+                        <div class="ins-box bottom-line-right">
+                            <li class="high-text">Once all of your lives are gone... Game Over!</li>
+                        </div>
+                        <div class="arrow-head"></div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

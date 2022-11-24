@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Title Landing Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/robot.ico">
+
+    <link rel="stylesheet" href="./styles/baseline.css">
+    <link rel="stylesheet" href="./styles/scores.css">
+
+    <script src="./scripts/fake_db.js" defer></script>
+    <script src="./scripts/loginState.js" defer></script>
+    <script src="./scripts/dbTest.js" defer></script>
+    <!-- Link your script here -->
+    <script src="./scripts/scores.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Josefin+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <ul class="max-w">
+            <li class="logo">
+                <a id="logo-content" href="index.html">
+                    <img id="logo-img" src="./images/logo.png" alt="logo">
+                    <div id="logo-text">
+                        <h3>anything</h3>
+                        <p>HANDS FREE GAMING</p>
+                    </div>
+                </a>
+            </li>
+            <div class="flex-even">
+                <li id="scores"><a href="scores.html">Scores</a></li>
+                <li id="signup"><a href="signup.html">Sign-up</a></li>
+                <li id="login"><button>Log-in</button></li>
+            </div>
+        </ul>
+    </nav>
+
+    <main class="max-w">
+        <section id="scores" class="wrapper">
+            <h1 class="center pad">User Scores</h1>
+
+            <table id="table">
+                <tr>
+                    <th>User Name</th>
+                    <th>Score</th>
+                    <th></th>
+                </tr>
+
+
+
+            </table>
+
+        </section>
+
+        
+    </main>
+
+</body>
+
+</html>
