@@ -1,4 +1,17 @@
-# Design file
+# Practical
+
+Our website hosts a game, validates user sign ups and logins as well as stores user scores.
+
+## Main Page
+![Index](./images/Index.PNG)
+
+## Scores
+![Scores](./images/Scores.png)
+
+## Sign Up / Login
+![Validation](./images/uservalidation.png)
+
+# Design
 
 This file contains our design ideas as well as our sources of inspiration. 🧠
 
@@ -8,19 +21,17 @@ Name: Anything
 
 Slogan: Hands free gaming
 
-Logo: 
-
+Logo:<br>
 ![](.\images\logo_for_md.png)
 
 
 
-Color Palette:
-
+Color Palette:<br>
 ![](.\images\palette.png)
 
 
 
-Font Families: 
+Font Families: <br>
 
 Headings: font-family: 'Goblin One', cursive;
 
